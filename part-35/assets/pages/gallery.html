@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gallery Class 34</title>
+    </head>
+    <body>
+        <div>
+            <h1>Gallery</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/gallery.html">Gallery</a></li>
+                <li><a href="../pages/Contact.html">Contact</a></li>
+                <li><a href="../pages/form.html">Contact Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Gallery Image</h2>
+            <figure>
+                <picture>
+                    <source
+                        srcset="
+                            ../images/Flower&Birds/flower&birds-450.avif 450w,
+                            ../images/Flower&Birds/flower&birds-450.webp 450w,
+                            ../images/Flower&Birds/flower&birds-450.jpg  450w
+                        "
+                        media="(max-width:767px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Flower&Birds/flower&birds-768.avif 768w,
+                            ../images/Flower&Birds/flower&birds-768.webp 768w,
+                            ../images/Flower&Birds/flower&birds-768.jpg  768w
+                        "
+                        media="(max-width:849px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Flower&Birds/flower&birds-850.avif 850w,
+                            ../images/Flower&Birds/flower&birds-850.webp 850w,
+                            ../images/Flower&Birds/flower&birds-850.jpg  850w
+                        "
+                        media="(max-width:1279px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Flower&Birds/flower&birds-1280.avif 1280w,
+                            ../images/Flower&Birds/flower&birds-1280.webp 1280w,
+                            ../images/Flower&Birds/flower&birds-1280.jpg  1280w
+                        "
+                        media="(max-width:1854px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Flower&Birds/flower&birds-1855.avif 1855w,
+                            ../images/Flower&Birds/flower&birds-1855.webp 1855w,
+                            ../images/Flower&Birds/flower&birds-1855.jpg  1855w
+                        "
+                        media="(min-width:1855px)"
+                    />
+
+                    <img
+                        src="../images/Flower&Birds/flower&birds-1855.jpg"
+                        alt="Bird And Flower Image"
+                        width="48%"
+                    />
+                </picture>
+                <picture>
+                    <source
+                        srcset="
+                            ../images/Shark/shark-450.avif 450w,
+                            ../images/Shark/shark-450.webp 450w,
+                            ../images/Shark/shark-450.jpg  450w
+                        "
+                        media="(max-width: 767px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Shark/shark-768.avif 768w,
+                            ../images/Shark/shark-768.webp 768w,
+                            ../images/Shark/shark-768.jpg  768w
+                        "
+                        media="(max-width:849px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Shark/shark-850.avif 850w,
+                            ../images/Shark/shark-850.webp 850w,
+                            ../images/Shark/shark-850.jpg  850w
+                        "
+                        media="(max-width:1279px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Shark/shark-1280.avif 1280w,
+                            ../images/Shark/shark-1280.webp 1280w,
+                            ../images/Shark/shark-1280.jpg  1280w
+                        "
+                        media="(max-width:1899px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Shark/shark-1900.avif 1900wShark/shark-
+                            ../images/Shark/shark-1900.webp 1900wShark/shark-
+                            ../images/Shark/shark-1900.jpg  1900w
+                        "
+                        media="(min-width:1899px)"
+                    />
+
+                    <img
+                        src="../images/Shark/shark-1855.jpg"
+                        alt="Friends Groupe"
+                        width="48%"
+                    />
+                </picture>
+            </figure>
+        </div>
+        <div>
+            <h2>Feedback Form</h2>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Gallery Feedback</legend>
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" /> <br /><br />
+                    <label for="password">Password :</label>
+                    <input type="password" name="password" id="password" />
+                </fieldset>
+                <br />
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
