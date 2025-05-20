@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class 36</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="asstets/pages/about.html">About</a></li>
+                    <li><a href="asstets/pages/gallery.html">Gallery</a></li>
+                    <li><a href="asstets/pages/contact.html">Contact</a></li>
+                    <li><a href="asstets/pages/form.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h1>HTML Learning Path</h1>
+            <p>
+                This site provides step-by-step tutorials on HTML. Learn to use
+                <strong>tags,</strong> <em>attributes,</em>
+                <strong>formatting,</strong> and more. Key topics include
+                <mark>HTML basics,</mark> <u>styling,</u> and
+                <del>depreeated elements.</del>
+            </p>
+        </div>
+        <div>
+            <h1>Responsive Image Example</h1>
+            <figure>
+                <picture>
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-450.avif 450w,
+                            asstets/images/two-birds/two-birds-450.webp 450w,
+                            asstets/images/two-birds/two-birds-450.jpg  450w
+                        "
+                        media="(max-width: 767px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-768.avif 768w,
+                            asstets/images/two-birds/two-birds-768.webp 768w,
+                            asstets/images/two-birds/two-birds-768.jpg  768w
+                        "
+                        media="(max-width: 849px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-850.avif 850w,
+                            asstets/images/two-birds/two-birds-850.webp 850w,
+                            asstets/images/two-birds/two-birds-850.jpg  850w
+                        "
+                        media="(max-width: 1199px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-1200.avif 1200w,
+                            asstets/images/two-birds/two-birds-1200.webp 1200w,
+                            asstets/images/two-birds/two-birds-1200.jpg  1200w
+                        "
+                        media="(max-width: 1279px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-1280.avif 1280w,
+                            asstets/images/two-birds/two-birds-1280.webp 1280w,
+                            asstets/images/two-birds/two-birds-1280.jpg  1280w
+                        "
+                        media="(max-width: 1854px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-1855.avif 1855w,
+                            asstets/images/two-birds/two-birds-1855.webp 1855w,
+                            asstets/images/two-birds/two-birds-1855.jpg  1855w
+                        "
+                        media="(max-width: 1999px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-2000.avif 2000w,
+                            asstets/images/two-birds/two-birds-2000.webp 2000w,
+                            asstets/images/two-birds/two-birds-2000.jpg  2000w
+                        "
+                        media="(min-width: 2000px)"
+                    />
+
+                    <img
+                        src="asstets/images/two-birds/two-birds-2000.jpg"
+                        alt="Responsive Image"
+                        width="90%"
+                    />
+                </picture>
+            </figure>
+        </div>
+        <div>
+            <h1>Assignment Form</h1>
+            <div>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>Parsonal Information</legend>
+                        <p>
+                            <label for="uname">Usersname : </label>
+                            <input
+                                type="text"
+                                name="uname"
+                                id="uname"
+                                placeholder="Enter your username"
+                            />
+                        </p>
+
+                        <p>
+                            <label for="password">Password : </label>
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                placeholder="Enter your Password"
+                            />
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Learning Topics</legend>
+                        <p>
+                            <input
+                                type="checkbox"
+                                name="Learning Topics"
+                                id="html-basics"
+                                value="HTML Basics"
+                            />
+                            <label for="html-basics">HTML Basics</label>
+                        </p>
+
+                        <p>
+                            <input
+                                type="checkbox"
+                                name="Learning Topics"
+                                id="tformatting"
+                                value="Text Formatting"
+                            />
+                            <label for="tformatting">Text Formatting</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Learning Style</legend>
+                        <p>
+                            <input
+                                type="radio"
+                                name="learning-style"
+                                id="virsual"
+                                value="virsual"
+                            />
+                            <label for="virsual">Visual</label>
+                        </p>
+                        <p>
+                            <input
+                                type="radio"
+                                name="learning-style"
+                                id="textual"
+                                value="textual"
+                            />
+                            <label for="textual">Textual</label>
+                        </p>
+                    </fieldset>
+                    <br />
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

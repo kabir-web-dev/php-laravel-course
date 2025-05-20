@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Class 36</title>
+    </head>
+    <body>
+        <div>
+            <h1>About Us</h1>
+            <div>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="../pages/gallery.html">Gallery</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/form.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h1>Our Mission</h1>
+            <p>
+                We aim to teach HTML in a structured, engaging way. From
+                <strong>basics</strong> to <mark>advanced</mark> topics, our
+                lessons cater to all levels. Learn via
+                <strong>real-wold examples.</strong>
+            </p>
+        </div>
+        <div>
+            <h1>Responsive Image</h1>
+            <div>
+                <figure>
+                    <picture>
+                        <source
+                            srcset="
+                                ../images/Flower&Birds/flower&birds-450.avif 450w,
+                                ../images/Flower&Birds/flower&birds-450.webp 450w,
+                                ../images/Flower&Birds/flower&birds-450.jpg  450w
+                            "
+                            media="(max-width: 767px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/Flower&Birds/flower&birds-768.avif 768w,
+                                ../images/Flower&Birds/flower&birds-768.webp 768w,
+                                ../images/Flower&Birds/flower&birds-768.jpg  768w
+                            "
+                            media="(max-width: 849px)"
+                        />
+                        <source
+                        srcset="
+                            ../images/two-birds/two-birds-850.avif 850w,
+                            ../images/two-birds/two-birds-850.webp 850w,
+                            ../images/two-birds/two-birds-850.jpg  850w
+                        "
+                        media="(max-width: 1279px)"
+                        />
+                        <source
+                        srcset="
+                            ../images/Shark/shark-1280.avif 1280w,
+                            ../images/Shark/shark-1280.webp 1280w,
+                            ../images/Shark/shark-1280.jpg  1280w
+                        "
+                        media="(max-width: 1854px)"
+                        />
+                        <source
+                        srcset="
+                            ../images/Chil-Birds/chil-1855.avif 1280w,
+                            ../images/Chil-Birds/chil-1855.webp 1280w,
+                            ../images/Chil-Birds/chil-1855.jpg  1280w
+                        "
+                        media="(max-width: 1999px)"
+                        />
+
+                        <img
+                            src="../images/Flower&Birds/flower&birds-2000.jpg"
+                            alt="Flowers & Birds"
+                            width="90%"
+                        />
+                    </picrure>
+                </figure>
+            </div>
+        </div>
+        <div>
+            <h2>Form Assignment</h2>
+            <form action="" method="get">
+                <p>
+                    <label for="name">Full Name :</label>
+                    <input type="text" name="name" id="name"  placeholder="Your Full name">
+                </p>
+                <p>
+                    <label for="bio">Bio :</label>
+                    <input type="text" name="bio" id="bio"  placeholder="Short bio">
+                </p>
+                <fieldset>
+                    <legend>Skill Set</legend>
+                    <p>
+                        <input type="checkbox" name="Skill_Set" id="coding">
+                        <label for="coding">Coding</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="Skill_Set" id="design">
+                        <label for="design">Design</label>
+                    </p>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Experience Level</legend>
+                    <p>
+                    <input type="radio" name="experience" id="beginner">
+                    <label for="beginner">Beginner</label>
+                    </p>
+                    <p>
+                    <input type="radio" name="experience" id="advanced">
+                    <label for="advanced">advanced</label>
+                    </p>
+                    
+                </fieldset><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

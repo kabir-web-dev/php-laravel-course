@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gallery Class 36</title>
+    </head>
+    <body>
+        <div>
+            <h1>Gallery</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Gallery Image</h2>
+            <div>
+                <figure>
+                    <picture>
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-450.avif 450w,
+                                ../images/two-birds/two-birds-450.webp 450w,
+                                ../images/two-birds/two-birds-450.jpg  450w
+                            "
+                            media="(max-width: 767px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-768.avif 768w,
+                                ../images/two-birds/two-birds-768.webp 768w,
+                                ../images/two-birds/two-birds-768.jpg  768w
+                            "
+                            media="(max-width: 849px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-850.avif 850w,
+                                ../images/two-birds/two-birds-850.webp 850w,
+                                ../images/two-birds/two-birds-850.jpg  850w
+                            "
+                            media="(max-width: 1199px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-1200.avif 1200w,
+                                ../images/two-birds/two-birds-1200.webp 1200w,
+                                ../images/two-birds/two-birds-1200.jpg  1200w
+                            "
+                            media="(max-width: 1279px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-1280.avif 1280w,
+                                ../images/two-birds/two-birds-1280.webp 1280w,
+                                ../images/two-birds/two-birds-1280.jpg  1280w
+                            "
+                            media="(max-width: 1854px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-1855.avif 1855w,
+                                ../images/two-birds/two-birds-1855.webp 1855w,
+                                ../images/two-birds/two-birds-1855.jpg  1855w
+                            "
+                            media="(max-width: 1999px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-2000.avif 2000w,
+                                ../images/two-birds/two-birds-2000.webp 2000w,
+                                ../images/two-birds/two-birds-2000.jpg  2000w
+                            "
+                            media="(min-width: 2000px)"
+                        />
+
+                        <img
+                            src="asstets/images/two-birds/two-birds-2000.jpg"
+                            alt="Responsive Image"
+                            width="48%"
+                        />
+                    </picture>
+                    <picture>
+                        <source
+                            srcset="
+                                ../images/Shark/shark-450.avif 450w,
+                                ../images/Shark/shark-450.webp 450w,
+                                ../images/Shark/shark-450.jpg  450w
+                            "
+                            media="(max-width: 767px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-768.avif 768w,
+                                ../images/two-birds/two-birds-768.webp 768w,
+                                ../images/two-birds/two-birds-768.jpg  768w
+                            "
+                            media="(max-width: 849px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-850.avif 850w,
+                                ../images/two-birds/two-birds-850.webp 850w,
+                                ../images/two-birds/two-birds-850.jpg  850w
+                            "
+                            media="(max-width: 1279px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-1280.avif 1280w,
+                                ../images/two-birds/two-birds-1280.webp 1280w,
+                                ../images/two-birds/two-birds-1280.jpg  1280w
+                            "
+                            media="(max-width: 1854px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/Flower&Birds/flower&birds-1855.avif 1855w,
+                                ../images/Flower&Birds/flower&birds-1855.webp 1855w,
+                                ../images/Flower&Birds/flower&birds-1855.jpg  1855w
+                            "
+                            media="(max-width: 1899px)"
+                        />
+                        <img
+                            src="../images/Shark/shark-2000.jpg"
+                            alt="This a Shark Image"
+                            width="48%"
+                        />
+                    </picture>
+                </figure>
+            </div>
+        </div>
+        <div>
+            <form action="" method="get">
+                <h2>Feedback Form</h2>
+                <fieldset>
+                    <legend>Gallery Feedback</legend>
+                    <p>
+                        <label for="name">Name :</label>
+                        <input type="text" name="name" id="name" />
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" />
+                    </p>
+                </fieldset>
+                <br />
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+    </body>
+</html>
