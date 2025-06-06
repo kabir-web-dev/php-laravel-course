@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Class 39</title>
+    </head>
+    <body>
+        <div>
+            <h1>About Us</h1>
+            <div>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="../pages/gallery.html">Gallery</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/form.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h1>Our Journey</h1>
+            <p>
+                Learn about <strong>how we started</strong> and our <strong>core values.</strong> We focus on <em>innovation</em> and <em>dedication</em>
+            </p>
+        </div>
+        <div>
+            <h1>Responsive Image</h1>
+            <div>
+                <figure>
+                    <picture>
+                        <source
+                            srcset="
+                                ../images/Shark/shark-450.webp 450w,
+                                ../images/Shark/shark-450.avif 450w,
+                                ../images/Shark/shark-450.jpg  450w
+                            "
+                            media="(max-width: 767px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/Shark/shark-768.webp 768w,
+                                ../images/Shark/shark-768.avif 768w,
+                                ../images/Shark/shark-768.jpg  768w
+                            "
+                            media="(max-width: 849px)"
+                        />
+                        <source
+                        srcset="
+                                ../images/Shark/shark-850.webp 850w,
+                                ../images/Shark/shark-850.avif 850w,
+                                ../images/Shark/shark-850.jpg  850w
+                        "
+                        media="(max-width: 1279px)"
+                        />
+                        <source
+                        srcset="
+                                ../images/Shark/shark-1280.webp 1280w,
+                                ../images/Shark/shark-1280.avif 1280w,
+                                ../images/Shark/shark-1280.jpg  1280w
+                        "
+                        media="(max-width: 1854px)"
+                        />
+                        <source
+                        srcset="
+                                ../images/Shark/shark-1855.webp 1855w,
+                                ../images/Shark/shark-1855.avif 1855w,
+                                ../images/Shark/shark-1855.jpg  1855w
+                        "
+                        media="(max-width: 1999px)"
+                        />
+                        <source
+                        srcset="
+                                ../images/Shark/shark-2000.webp 2000w,
+                                ../images/Shark/shark-2000.avif 2000w,
+                                ../images/Shark/shark-2000.jpg  2000w
+                        "
+                        media="(min-width: 1999px)"
+                        />
+
+                        <img
+                            src="../images/Flower&Birds/flower&birds-2000.jpg"
+                            alt="Flowers & Birds"
+                            width="90%"
+                        />
+                    </picrure>
+                </figure>
+            </div>
+        </div>
+        <div>
+            <h2>Form</h2>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Contact Info</legend>
+
+                <p>
+                    <label for="email">Email Address :</label>
+                    <input type="email" name="email" id="email"  placeholder="Enter your Email">
+                </p>
+                <p>
+                    <label for="tel">Phone number :</label>
+                    <input type="tel" name="tel" id="tel"  placeholder="Enter your phone number">
+                </p>
+                
+                </fieldset>
+                <fieldset>
+                    <legend>Preference</legend>
+                    <p><label for="preferences_amount">Preferences Amount</label>
+                        <input type="number" name="preferences_amount" id="preferences_amount" value="20">
+                    </p>
+                    <p>
+                        <label for="budget_range">Budget Range</label>
+                        <input type="range" name="budget_range" id="budget_range">
+                    </p>
+                    <p>
+                        <label for="preferred_theme_color">Preferred Theme Color</label>
+                        <input type="color" name="preferred_theme_color" id="preferred_theme_color">
+                    </p>
+                    <button type="submit" value="submit">Submit</button>
+                </fieldset>
+    </body>
+</html>

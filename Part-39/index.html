@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class-39</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Our Website</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="asstets/pages/about.html">About</a></li>
+                <li><a href="asstets/pages/gallery.html">Gallery</a></li>
+                <li><a href="asstets/pages/contact.html">Contact</a></li>
+                <li><a href="asstets/pages/form.html">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Introduction</h2>
+            <p>
+                This is a <sstrong>demo website</sstrong> designed for students.
+                You can learn <em>HTML concepts</em> step by step. Important
+                notes are <mark>ighlighted</mark>, and
+                <strong>key terms are emphasized.</strong>
+            </p>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <figure>
+                <picture>
+                    <source
+                        srcset="
+                            asstets/images/Flower&Birds/flower&birds-450.webp 450w,
+                            asstets/images/Flower&Birds/flower&birds-450.avif 450w,
+                            asstets/images/Flower&Birds/flower&birds-450.jpg  450w
+                        "
+                        media="(max-width:450px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/Flower&Birds/flower&birds-850.webp 850w,
+                            asstets/images/Flower&Birds/flower&birds-850.avif 850w,
+                            asstets/images/Flower&Birds/flower&birds-850.jpg  850w
+                        "
+                        media="(max-width:849px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/Flower&Birds/flower&birds-1280.webp 1280w,
+                            asstets/images/Flower&Birds/flower&birds-1280.avif 1280w,
+                            asstets/images/Flower&Birds/flower&birds-1280.jpg  1280w
+                        "
+                        media="(max-width:1854px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/Flower&Birds/flower&birds-1855.webp 1855w,
+                            asstets/images/Flower&Birds/flower&birds-1855.avif 1855w,
+                            asstets/images/Flower&Birds/flower&birds-1855.jpg  1855w
+                        "
+                        media="(max-width:1999px)"
+                    />
+
+                    <img
+                        src="asstets/images/Flower&Birds/flower&birds-2000.jpg"
+                        alt="Responsive Image"
+                        width="95%"
+                    />
+                </picture>
+            </figure>
+        </div>
+        <div>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <p>
+                        <label for="fname">First Name :</label>
+                        <input
+                            type="text"
+                            name="fname"
+                            id="fname"
+                            placeholder="Enter Your first name"
+                        />
+                    </p>
+                    <p>
+                        <label for="lname">Last Name :</label>
+                        <input
+                            type="text"
+                            name="lname"
+                            id="lname"
+                            placeholder="Enter Your last name"
+                        />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <p>
+                        <label for="amount">Amount</label>
+                        <input
+                            type="number"
+                            name="amount"
+                            id="amount"
+                            value="50"
+                        />
+                    </p>
+                    <p>
+                        <label for="">Price Range</label>
+                        <input type="range" name="" id="" />
+                    </p>
+                    <p>
+                        <label for="">Favorite Color</label>
+                        <input type="color" name="" id="" />
+                    </p>
+                    <button type="submit" value="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

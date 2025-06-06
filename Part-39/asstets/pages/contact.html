@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Class 38</title>
+    </head>
+    <body>
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/gallery.html">Gallery</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Get in Touch</h2>
+            <p>
+                Feel free to contact us through the form below or reach out cia
+                email or phone.
+            </p>
+        </div>
+        <div>
+            <h2>Our Office Location</h2>
+            <figure>
+                <picture>
+                    <source
+                        srcset="
+                            ../images/Shark/shark-450.avif 450w,
+                            ../images/Shark/shark-450.webp 450w,
+                            ../images/Shark/shark-450.jpg  450w
+                        "
+                        media="(max-width: 767px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/two-birds/two-birds-768.avif 768w,
+                            ../images/two-birds/two-birds-768.webp 768w,
+                            ../images/two-birds/two-birds-768.jpg  768w
+                        "
+                        media="(max-width: 849px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/two-birds/two-birds-850.avif 850w,
+                            ../images/two-birds/two-birds-850.webp 850w,
+                            ../images/two-birds/two-birds-850.jpg  850w
+                        "
+                        media="(max-width: 1279px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/two-birds/two-birds-1280.avif 1280w,
+                            ../images/two-birds/two-birds-1280.webp 1280w,
+                            ../images/two-birds/two-birds-1280.jpg  1280w
+                        "
+                        media="(max-width: 1854px)"
+                    />
+                    <source
+                        srcset="
+                            ../images/Flower&Birds/flower&birds-1855.avif 1855w,
+                            ../images/Flower&Birds/flower&birds-1855.webp 1855w,
+                            ../images/Flower&Birds/flower&birds-1855.jpg  1855w
+                        "
+                        media="(max-width: 1899px)"
+                    />
+                    <img
+                        src="../images/Shark/shark-2000.jpg"
+                        alt="This a Shark Image"
+                        width="95%"
+                    />
+                </picture>
+            </figure>
+        </div>
+        <div>
+            <h2>Contact Form</h2>
+            <form action="" method="post">
+                <p>
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Enter Your Full Name"
+                    />
+                </p>
+                <p>
+                    <label for="email_address">Email Address</label>
+                    <input
+                        type="email"
+                        name="email_address"
+                        id="email_address"
+                        placeholder="Ente Your Email"
+                    />
+                </p>
+                <p>
+                    <label for="tel">Phone number :</label>
+                    <input
+                        type="tel"
+                        name="tel"
+                        id="tel"
+                        placeholder="Ente Your Phone number"
+                    />
+                </p>
+
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+                    <p>
+                        <input type="radio" name="contact_method" id="email" />
+                        <label for="email">Email</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="contact_method" id="phone" />
+                        <label for="phone">Phone</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Type of Query :</legend>
+                        <input
+                            type="checkbox"
+                            name="type-of-query"
+                            id="support"
+                        />
+                        <label for="support">Support</label>
+                    </p>
+                    <p>
+                        <input
+                            type="checkbox"
+                            name="type-of-query"
+                            id="feedback"
+                        />
+                        <label for="feedback">Feedback</label>
+                    </p>
+                </fieldset>
+               <p>
+                <label for="">Your Website (Optional):</label>
+                <input type="url" name="url" id="url" placeholder="Enter Your Website URL">
+               </p>
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
