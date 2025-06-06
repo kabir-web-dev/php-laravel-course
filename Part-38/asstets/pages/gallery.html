@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gallery Class 38</title>
+    </head>
+    <body>
+        <div>
+            <h1>Gallery</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Featured Image</h2>
+            <div>
+                <figure>
+                    <picture>
+                        <source
+                            srcset="
+                                ../images/two-birds/two-birds-1280.avif 1280w,
+                                ../images/two-birds/two-birds-1280.webp 1280w,
+                                ../images/two-birds/two-birds-1280.jpg  1280w
+                            "
+                            media="(max-width: 1854px)"
+                        />
+                        <img
+                            src="asstets/images/two-birds/two-birds-2000.jpg"
+                            alt="Responsive Image"
+                            width="100%"
+                        />
+                    </picture>
+                </figure>
+            </div>
+        </div>
+        <div>
+            <form action="" method="get">
+                <h2>Assignment Form</h2>
+                <p>
+                    <label for="name">Full Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter
+                    Your full mane/>
+                </p>
+                <p>
+                    <label for="email">Email Address :</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    />
+                </p>
+
+                <p>
+                    <label for="favorite_image">Favorite Image ID</label>
+                    <input
+                        type="text"
+                        name="favorite_image"
+                        id="favorite_image"
+                        placeholder="Enter your Image ID or URL"
+                    />
+                </p>
+                <fieldset>
+                    <legend>Image Type</legend>
+                    <input type="radio" name="image_type" id="landscape" />
+                    <label for="landscape">Landscape</label> <br />
+                    <input type="radio" name="image_type" id="Portrait" />
+                    <label for="Portrait">Portrait</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose Tags</legend>
+                    <input type="checkbox" name="tags" id="nature" />
+                    <label for="nature">Nature</label> <br />
+                    <input type="checkbox" name="tags" id="urban" />
+                    <label for="urban">Urban</label>
+                </fieldset>
+                <br />
+                <label for="search_image">Search for Image :</label>
+                <input
+                    type="search"
+                    name="search_image"
+                    id="search_image"
+                    placeholder="Search Image"
+                />
+                <br />
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

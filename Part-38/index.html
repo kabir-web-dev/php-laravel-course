@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class-38</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="asstets/pages/about.html">About</a></li>
+                    <li><a href="asstets/pages/gallery.html">Gallery</a></li>
+                    <li><a href="asstets/pages/contact.html">Contact</a></li>
+                    <li><a href="asstets/pages/form.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Introduction</h2>
+            <p>
+                This is a <strong>demo website</strong> designed for students.
+                You con learn <em>HTML Concepts</em> step by step. Important
+                notes are <mark>highlighted,</mark> and
+                <strong> key terms are emphasized.</strong> Some changes
+                <del>are removed</del> while others <ins>are inserted.</ins>
+            </p>
+        </div>
+        <div>
+            <h2>Topics Table</h2>
+            <table border="1px">
+                <thead>
+                    <th colspan="2">Topics Covered</th>
+
+                    <th>Addition</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">HTML Basic</td>
+                        <td>Tag</td>
+                        <td rowspan="2">Core concept</td>
+                    </tr>
+                    <tr>
+                        <td>Attribute</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Keep Practing!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <figure>
+                <picture>
+                    <source
+                        srcset="
+                            asstets/images/Flower&Birds/flower&birds-450.webp 450w,
+                            asstets/images/Flower&Birds/flower&birds-450.avif 450w,
+                            asstets/images/Flower&Birds/flower&birds-450.jpg  450w
+                        "
+                        media="(max-width:849px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/two-birds/two-birds-850.webp 850w,
+                            asstets/images/two-birds/two-birds-850.avif 850w,
+                            asstets/images/two-birds/two-birds-850.jpg  850w
+                        "
+                        media="(max-width:1279px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/Shark/shark-1280.webp 1280w,
+                            asstets/images/Shark/shark-1280.avif 1280w,
+                            asstets/images/Shark/shark-1280.jpg  1280w
+                        "
+                        media="(max-width:1854px)"
+                    />
+                    <source
+                        srcset="
+                            asstets/images/Chil-Birds/chil-1855.webp 1855w
+                            asstets/images/Chil-Birds/chil-1855.avif 1855w
+                            asstets/images/Chil-Birds/chil-1855.jpg 1855w
+                        "
+                        media="(min-width:1855px)"
+                    />
+
+                    <img
+                        src="asstets/images/Flower&Birds/flower&birds-1855.jpg"
+                        alt="Responsive Image"
+                        width="80%"
+                    />
+                    <figcaption>Responsive Image</figcaption>
+                </picture>
+            </figure>
+        </div>
+        <div>
+            <h2>Assignment Form</h2>
+            <form action="" method="get">
+                <p>
+                    <label for="name">Full Name : </label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Enter Your Full Name"
+                        autofocus="true"
+                    />
+                </p>
+                <p>
+                    <label for="email">Email Address : </label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter Your Email"
+                    />
+                </p>
+                <p>
+                    <label for="url">Your Website : </label>
+                    <input
+                        type="url"
+                        name="url"
+                        id="url"
+                        placeholder="Enter Your Website URL"
+                    />
+                </p>
+                <fieldset>
+                    <legend>Gendr</legend>
+                    <p>
+                        <input type="radio" name="gender" id="male" />
+                        <label for="male">Male</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">Female</label>
+                    </p>
+                </fieldset>
+                Select Your Interests:
+                <p>
+                    <input
+                        type="checkbox"
+                        name="html"
+                        id="html"
+                        checked="true"
+                    />
+                    <label for="html">HTML</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="css" id="css" />
+                    <label for="css">CSS</label>
+                </p>
+                <label for="message">Your Message : </label>
+                <input
+                    type="search"
+                    name="message"
+                    id="message"
+                    placeholder="Search or Write Your message"
+                />
+                <br />
+                <br />
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

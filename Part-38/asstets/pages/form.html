@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Class 38</title>
+    </head>
+    <body>
+        <div>
+            <h1>Form Assignment</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/gallery.html">Gallety</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/form.html">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Assignment Form</h2>
+            <p>Complete the form below to test yous knowledge of HTML forms.</p>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <div>
+                <figure>
+                    <picture>
+                        <source
+                            srcset="
+                                ../images/house/house-450.avif 450w,
+                                ../images/house/house-450.webp 450w,
+                                ../images/house/house-450.jpg  450w
+                            "
+                            media="(max-width:767px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/winter-house/winter-house-768.avif 768w,
+                                ../images/winter-house/winter-house-768.webp 768w,
+                                ../images/winter-house/winter-house-768.jpg  768w
+                            "
+                            media="(max-width:849px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/house/house-850.avif 850w,
+                                ../images/house/house-850.webp 850w,
+                                ../images/house/house-850.jpg  850w
+                            "
+                            media="(max-width:1279px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/winter-house/winter-house-1280.avif 1280w,
+                                ../images/winter-house/winter-house-1280.webp 1280w,
+                                ../images/winter-house/winter-house-1280.jpg  1280w
+                            "
+                            media="(max-width:1899px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/house/house-1900.avif 1900w,
+                                ../images/house/house-1900.webp 1900w,
+                                ../images/house/house-1900.jpg  1900w
+                            "
+                            media="(max-width:1999px)"
+                        />
+                        <source
+                            srcset="
+                                ../images/winter-house/winter-house-2000.avif 2000w,
+                                ../images/winter-house/winter-house-2000.webp 2000w,
+                                ../images/winter-house/winter-house-2000.jpg  2000w
+                            "
+                            media="(min-width:2000px)"
+                        />
+                        <img
+                            src="../images/house/house-1900.jpg"
+                            alt="Responsive Image"
+                            width="95%"
+                        />
+                    </picture>
+                </figure>
+            </div>
+        </div>
+        <div>
+            <div>
+                <form action="" method="get">
+                    <p>
+                        <label for="name">Full Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Enter your full name"
+                        />
+                    </p>
+                    <p>
+                        <label for="email_address">Email Address</label>
+                        <input
+                            type="email"
+                            name="email_address"
+                            id="email_address"
+                            placeholder="Enter your email address"
+                        />
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Create a password"
+                        />
+                    </p>
+
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <p>
+                            <input type="radio" name="gender" id="male" />
+                            <label for="male">Male</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="gender" id="female" />
+                            <label for="female">Female</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Areas of Interests</legend>
+                        <p>
+                            <input
+                                type="checkbox"
+                                name="Interests"
+                                id="frontend_development"
+                            />
+                            <label for="frontend_development"
+                                >Frontend Development</label
+                            >
+                        </p>
+                        <p>
+                            <input
+                                type="checkbox"
+                                name="Interests"
+                                id="backend_development"
+                            />
+                            <label for="backend_development"
+                                >Backend Development</label
+                            >
+                        </p>
+                        <label for="portfolio_link">Portfolio URL</label>
+                        <input
+                            type="url"
+                            name="portfolio_link"
+                            id="portfolio_link"
+                            placeholder="Enter Your Portfolio Link"
+                        />
+                    </fieldset>
+                    <br />
+                    <button type="submit" value="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
