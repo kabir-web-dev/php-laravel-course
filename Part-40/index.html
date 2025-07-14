@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class 40</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="asstets/pages/about.html">About</a></li>
+                <li><a href="asstets/pages/gallery.html">Gallery</a></li>
+                <li><a href="asstets/pages/contact.html">Contact</a></li>
+                <li><a href="asstets/pages/form.html">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <form action="">
+                <h1>Home Page Form</h1>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <p>
+                        <label for="fname">First Name :</label>
+                        <input
+                            type="text"
+                            name="fname"
+                            id="fname"
+                            placeholder="Enter your first name"
+                        />
+                    </p>
+                    <p>
+                        <label for="lname">Last Name :</label>
+                        <input
+                            type="text"
+                            name="lname"
+                            id="lname"
+                            placeholder="Enter your last name"
+                        />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <p>
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        />
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                            placeholder="Enter your phone number"
+                        />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <p>
+                        <label for="favorit_color">Favorite Color:</label>
+                        <input
+                            type="color"
+                            name="favorit_color"
+                            id="favorit_color"
+                        />
+                    </p>
+                    <p>
+                        <label for="amount">Amount :</label>
+                        <input
+                            type="number"
+                            name="amount"
+                            id="amount"
+                            value="10"
+                        />
+                    </p>
+                    <p>
+                        <label for="range">Price Range :</label>
+                        <input type="range" name="range" id="range" />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Date and Time</legend>
+                    <p>
+                        <label for="datetime">Datetime :</label>
+                        <input
+                            type="datetime-local"
+                            name="datetime"
+                            id="datetime"
+                        />
+                    </p>
+                    <p>
+                        <label for="date">Date :</label>
+                        <input type="date" name="date" id="date" />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Option</legend>
+                    <p>
+                        <input
+                            type="checkbox"
+                            name="agreement"
+                            id="agreement"
+                            value="Checked"
+                        />
+                        <label for="agreement"
+                            >I agree to the terms and conditions</label
+                        >
+                    </p>
+                    <p>
+                        <input
+                            type="radio"
+                            name="subscribtion"
+                            id="Subscribe"
+                            value="Subscribe"
+                        />
+                        <label for="Subscribe">Subscribe to Newsletter</label>
+                    </p>
+                    <p>
+                        <input
+                            type="radio"
+                            name="subscribtion"
+                            id="not_subscribe"
+                            value="Not Subscribe"
+                        />
+                        <label for="not_subscribe">Do not Subscribe</label>
+                    </p>
+                </fieldset>
+                <br />
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
